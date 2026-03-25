@@ -6,3 +6,6 @@ __pycache__/
 #Entornos virtuales
 .env/
 .venv/
+#resultados del testing
+.pytest_cache/
+.coverage
