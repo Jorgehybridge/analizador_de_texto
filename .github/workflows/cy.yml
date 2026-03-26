@@ -1,4 +1,4 @@
-nname: run test
+name: run test
 on: [push, pull_request]
 
 permissions:
