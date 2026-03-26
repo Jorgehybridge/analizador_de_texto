@@ -41,5 +41,6 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           context: .
+          file: tests/Dockerfile
           push: true
           tags: ghcr.io/jorgehybridge/analizador_de_texto:latest
