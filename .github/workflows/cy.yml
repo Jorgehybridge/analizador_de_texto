@@ -8,9 +8,7 @@ permissions:
 jobs:
   test:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: analizador_de_texto
+  
     steps:
       - name: checkout code
         uses: actions/checkout@v4
@@ -39,4 +37,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/${{ github.repository }}:latest
+          tags: ghcr.io/${{ github.repository }}:latest 
