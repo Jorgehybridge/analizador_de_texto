@@ -13,8 +13,8 @@ from analyzer.text_analyzer import (
 text = "Cuando la vida diaria, cuando el amor se acaba, blablalblbalbblalbalba"
  #Esta es una prueba
 print("Palabras:", count_words(text))
-print(f"Caracteres:", count_characters(text))
-print(f"Oraciones:", count_sentences(text))
-print(f"Palabra mas larga:", longest_word(text))
-print(f"Oracion mas larga:", longest_sentence(text))
-print(f"Parrafo mas largo:", longest_paragraph(text))
+print("Caracteres:", count_characters(text))
+print("Oraciones:", count_sentences(text))
+print("Palabra mas larga:", longest_word(text))
+print("Oracion mas larga:", longest_sentence(text))
+print("Parrafo mas largo:", longest_paragraph(text))

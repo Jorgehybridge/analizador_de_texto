@@ -37,17 +37,6 @@ def longest_paragraph(text):
 	if not paragraphs:
 		return ""
 	return max(paragraphs, key=len).strip()
-def count_paragraphs(text):
-	paragraph=text.split("\n\n")
-	paragraphs=[p for p in paragraph if p.strip()]
-	return len(paragraphs)
 
-def longest_word(text):
-	words = text.split()
-	if not words:
-		return ""
-	return max(words, key=len)
-def longest_sentence(text):
-    sentences = text.split(".")
-    sentences = [s for s in sentences if s.strip()]
-    return max(sentences, key=len).strip()
+
+
