@@ -51,7 +51,3 @@ def longest_sentence(text):
     sentences = text.split(".")
     sentences = [s for s in sentences if s.strip()]
     return max(sentences, key=len).strip()
-def longest_paragraph(text):
-    paragraphs = text.split("\n\n")
-    paragraphs = [p for p in paragraphs if p.strip()]
-    return max(paragraphs, key=len).strip()
